@@ -1120,7 +1120,10 @@
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
               <TablixMembers>
-                <TablixMember />
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                  <RepeatOnNewPage>true</RepeatOnNewPage>
+                </TablixMember>
                 <TablixMember>
                   <Group Name="ProductNameCode">
                     <GroupExpressions>
@@ -1171,11 +1174,13 @@
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
+            <RepeatColumnHeaders>true</RepeatColumnHeaders>
+            <RepeatRowHeaders>true</RepeatRowHeaders>
             <DataSetName>DataSet1</DataSetName>
             <Top>0.01389in</Top>
             <Left>0.11458in</Left>
             <Height>0.82292in</Height>
-            <Width>6.90972in</Width>
+            <Width>6.90971in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
